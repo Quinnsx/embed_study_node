@@ -73,7 +73,7 @@ input
 
     从指定位置按步长依次取出元素到结束位置，得到新序列
 
-- 非序列：集合、字典、frozenset等
+- ![image-20230428181536539](python学习.assets/image-20230428181536539.png)非序列：集合、字典、frozenset等
 
   
 
@@ -130,7 +130,7 @@ def functionA()
 
 - from...import * 
 
-![image-20230428142254299](C:\Users\PC\AppData\Roaming\Typora\typora-user-images\image-20230428142254299.png)- 
+![image-20230428142254299](python学习.assets/image-20230428142254299.png)
 
 
 
@@ -154,17 +154,19 @@ def functionA()
 
 
 
-定义类的属性![image-20230428144126867](C:\Users\PC\AppData\Roaming\Typora\typora-user-images\image-20230428144126867.png)
+定义类的属性
 
-
+![image-20230428144126867](python学习.assets/image-20230428144126867.png)
 
 # 路径
 
-- 相对路径![image-20230428152435745](C:\Users\PC\AppData\Roaming\Typora\typora-user-images\image-20230428152435745.png)
+- 相对路径
+
+  ![image-20230428152435745](python学习.assets/image-20230428152435745.png)
 
 - 绝对路径
 
-  ![image-20230428152522532](C:\Users\PC\AppData\Roaming\Typora\typora-user-images\image-20230428152522532.png)
+  ![image-20230428152522532](python学习.assets/image-20230428152522532.png)
 
 
 
@@ -176,4 +178,4 @@ readline
 
 readlines 返回全部文件内容每行组成的列表
 
-![image-20230428160154289](C:\Users\PC\AppData\Roaming\Typora\typora-user-images\image-20230428160154289.png)
+![image-20230428160154289](python学习.assets/image-20230428160154289.png)

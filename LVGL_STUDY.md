@@ -2,13 +2,15 @@
 
 1. 基础对象简介：
 
-![image-20230313110638760](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230313110638760.png)
+![image-20230313110638760](LVGL_STUDY.assets/image-20230313110638760.png)
 
 ```c   
 lv_obj_t *name = lv_obj_creat(lv_scr_act());         //lv_obj是lv_scr_act的子对象
 ```
 
-2. 父对象和子对象的关系![image-20230313110442402](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230313110442402.png)
+2. 父对象和子对象的关系
+
+   ![image-20230313110442402](LVGL_STUDY.assets/image-20230313110442402.png)
 
 3. 部件的基本**属性**
 
@@ -39,7 +41,9 @@ lv_obj_t *name = lv_obj_creat(lv_scr_act());         //lv_obj是lv_scr_act的子
        lv_obj_align(obj, LV_ALIGN_..., x, y);    //参照父对象对齐，再进行偏移
        ```
 
-       子对象能选择灰色框里面的9种对齐方式![image-20230313114139301](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230313114139301.png)
+       子对象能选择灰色框里面的9种对齐方式
+
+       ![image-20230313114139301](LVGL_STUDY.assets/image-20230313114139301.png)
 
      - 参照其他对象对齐（无父子关系)
 
@@ -85,15 +89,15 @@ lv_obj_t *name = lv_obj_creat(lv_scr_act());         //lv_obj是lv_scr_act的子
 
      - 样式生效的状态
 
-       ![image-20230313142228376](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230313142228376.png)
+       ![image-20230313142228376](LVGL_STUDY.assets/image-20230313142228376.png)
 
      - 样式属性  
 
-       ![image-20230313143016258](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230313143016258.png)  
+        ![image-20230313143016258](LVGL_STUDY.assets/image-20230313143016258.png)
 
        lv_obj_set_style_**xx_xx**(obj,lv_color_hex(0xf11ff),LV_STATE_XXXX);     //
 
-       ![image-20230313150210685](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230313150210685.png)   
+       ![image-20230313150210685](LVGL_STUDY.assets/image-20230313150210685.png)
 
        lv_obj_set_style_xx_xx(obj,lv_color_hex(0xf11ff),**LV_PART_XXXX**);     //
 
@@ -106,7 +110,7 @@ lv_obj_t *name = lv_obj_creat(lv_scr_act());         //lv_obj是lv_scr_act的子
        //event_cb事件回调函数、event_code事件类型、user_data用户数据   
        ```
 
-       事件类型：![image-20230313152430084](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230313152430084.png)
+       事件类型：![image-20230313152430084](LVGL_STUDY.assets/image-20230313152430084.png)
 
      -  删除事件   
 
@@ -121,5 +125,3 @@ lv_obj_t *name = lv_obj_creat(lv_scr_act());         //lv_obj是lv_scr_act的子
      - 不同部件共用回调函数 `lv_obj_t *target = lv_event_get_target(lv_event_t e)`
 
        
-
-4. 

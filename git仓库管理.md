@@ -1,3 +1,7 @@
+[TOC]
+
+
+
 # 1、目标
 
 git基本概念
@@ -21,7 +25,7 @@ idea操作git
 
 ## 获取本地仓库 `git init`
 
-![image-20230401135706144](C:\Users\PC\AppData\Roaming\Typora\typora-user-images\image-20230401135706144.png)
+![image-20230401135706144](git仓库管理.assets/image-20230401135706144.png)
 
 ## 基础操作指令
 
@@ -91,6 +95,6 @@ git branch -D b1 不做检查，强制删除
 
 ### 开发中分支使用原则与流程
 
-![image-20230402183914993](C:\Users\PC\AppData\Roaming\Typora\typora-user-images\image-20230402183914993.png)
+![image-20230402183914993](git仓库管理.assets/image-20230402183914993.png)
 
 # git
